@@ -1,0 +1,370 @@
+
+body {
+    margin: 0;
+    font-family: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, sans-serif;
+    color: black;
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 0%;
+    margin-right: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 17px;
+    color: black;
+}
+
+.navbar li a:hover {
+    color: black;
+}
+
+.left-container {
+    float: left;
+    width: 50%;
+}
+
+.left-content {
+    margin-left: 130px;
+    margin-top: 90px;
+}
+
+.left-content h4 {
+    color: orange;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.left-content h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: black;
+    line-height: 1.1;
+    margin-top: 0;
+}
+
+.left-content p {
+    margin-top: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.8rem;
+}
+
+.contact-btn, .booking-btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.grid-item {
+    background-color: hsla(0, 0%, 100%, 0.162);
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+.grid-containerps {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0;
+    padding: 20px;
+    padding-top: 10%;
+}
+
+.grid-itemps imgps {
+    width: 200%;
+    height: 50%;
+    border-radius: 50px;
+    display: block;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 7%;
+}
+
+.photo-item {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.photo-item img {
+    max-width: 50px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.photo-item p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.pranav {
+    margin-left: 100px;
+    padding-top: 5%;
+    background-color: rgb(224, 234, 255);
+    background-clip: padding-box;
+    margin-right: 50px;
+    margin-top: 30px;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.work, .workjob, .working, .kar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.work {
+    background-color: rgb(212, 223, 245);
+}
+
+.workjob {
+    background-color: rgb(255, 255, 255);
+}
+
+.work-j {
+    background-color: rgb(224, 255, 255);
+}
+
+.work-p {
+    background-color: rgb(255, 236, 211);
+}
+
+.work-k {
+    background-color: rgba(169, 213, 245, 0.416);
+}
+
+.working {
+    background-color: rgb(253, 253, 253);
+}
+
+.kar {
+    max-width: 1300px;
+    background-color: rgb(183, 222, 245);
+    box-shadow: #333;
+}
+
+.tik {
+    border-color: #333;
+    border-radius: 2%;
+}
+
+.naukri {
+    background-color: rgb(166, 180, 237);
+}
+
+.naukri1 {
+    padding-top: 50px;
+}
+
+.naukri2 {
+    border: 2px solid black;
+    margin-left: 75%;
+    background-color: #333;
+    padding: auto;
+    border-radius: 5px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1300px;
+    background-color: rgb(28, 26, 26);
+}
+
+.footerna {
+    padding-top: 100px;
+    padding-left: 40px;
+    font-weight: 200;
+    color: #f9f9f9;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .left-container {
+        width: 100%;
+    }
+
+    .left-content {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .grid-container {
+        margin-left: 20px;
+        max-width: 100%;
+    }
+
+    .grid-item {
+        font-size: 16px;
+    }
+
+    .photo-grid {
+        padding-left: 0;
+    }
+
+    .pranav {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .work, .workjob, .working, .kar {
+        margin-left: 20px;
+    }
+
+    .naukri1 {
+        margin-left: 20px;
+    }
+
+    .naukri2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .footerna {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo-container {
+        margin-bottom: 10px;
+    }
+
+    .navbar ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    .navbar li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .left-content {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .grid-container, .grid-containerps, .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0;
+    }
+
+    .work, .workjob, .working, .kar {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .naukri1, .naukri2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footerna {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .left-content h1 {
+        font-size: 30px;
+    }
+
+    .left-content p {
+        font-size: 14px;
+    }
+
+    .contact-btn, .booking-btn {
+        padding: 8px 16px;
+    }
+
+    .grid-item {
+        font-size: 14px;
+    }
+
+    .photo-item img {
+        max-width: 40px;
+    }
+
+    .kar {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
